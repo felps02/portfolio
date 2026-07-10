@@ -1,11 +1,11 @@
 export const profile = {
-  name: 'Felipe Ribeiro',
+  name: 'Felipe Ribeiro Pelentil',
   location: 'Joinville - SC',
   title: 'Desenvolvedor Full Stack | DevOps Junior | Analista de Sistemas',
   email: 'feliperibeirk@gmail.com',
   github: 'https://github.com/felps02',
   linkedin: 'https://www.linkedin.com/in/felipe-ribeiro-967a33287',
-  whatsapp: 'https://wa.me/5500000000000',
+  whatsapp: 'https://wa.me/55479997119758',
   resume: '/curriculo-felipe-ribeiro.pdf'
 };
 
