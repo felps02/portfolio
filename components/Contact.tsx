@@ -26,7 +26,7 @@ const contacts = [
   },
   {
     label: 'WhatsApp',
-    value: 'Adicionar numero',
+    value: '47 9 997119758',
     href: profile.whatsapp,
     icon: MessageCircle
   }
