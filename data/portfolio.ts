@@ -5,7 +5,7 @@ export const profile = {
   email: 'feliperibeirk@gmail.com',
   github: 'https://github.com/felps02',
   linkedin: 'https://www.linkedin.com/in/felipe-ribeiro-967a33287',
-  whatsapp: 'https://wa.me/55479997119758',
+  whatsapp: 'https://wa.me/5547997119758',
   resume: '/curriculo-felipe-ribeiro.pdf'
 };
 
