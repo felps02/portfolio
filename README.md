@@ -27,16 +27,21 @@ npm run build
 
 O Next.js gera a pasta `out/` porque `next.config.js` esta configurado com `output: 'export'`.
 
-## Publicacao no GitHub Pages
+## Publicacao no GitHub Pages com GitHub Actions
 
-Para publicar como Project Page, por exemplo em `https://felps02.github.io/portfolio`, rode o build com o base path do repositorio:
+O repositorio ja inclui o workflow `.github/workflows/deploy-github-pages.yml`.
+Ele publica automaticamente quando houver push na branch `main`.
+
+No GitHub, confira em `Settings > Pages` se a origem esta configurada como `GitHub Actions`.
+
+Para testar localmente o mesmo caminho usado em `https://felps02.github.io/portfolio`, rode:
 
 ```powershell
 $env:NEXT_PUBLIC_BASE_PATH="/portfolio"
 npm run build
 ```
 
-Depois publique o conteudo da pasta `out/` no GitHub Pages.
+O Next.js gera a pasta `out/` e o workflow publica esse conteudo.
 
 Se o site for publicado em `https://felps02.github.io`, use o build sem `NEXT_PUBLIC_BASE_PATH`.
 
